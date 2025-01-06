@@ -1,0 +1,2 @@
+# Unhandled Default Values for Class Properties in C# 
+This example demonstrates a potential issue in C# where default values of class properties might lead to unexpected behavior if not handled explicitly in the class constructor.  The `MyClass` example lacks explicit initialization for `MyProperty`, which may lead to unexpected results in some use cases. The solution shows how to handle this by explicitly initializing the property within the constructor.
